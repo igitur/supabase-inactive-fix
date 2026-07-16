@@ -2,6 +2,7 @@
 
 import json
 import os
+import sys
 import logging
 from helpers.utils import generate_secure_random_string
 from services.supabase_service import SupabaseClient
@@ -127,6 +128,8 @@ def main():
                 logging.info(f"  Delete Success: {status['success_delete']}")
             else:
                 logging.info("  Delete Success: N/A")
+
+    sys.exit(0 if all_successful else 1)
 
 
 if __name__ == "__main__":
