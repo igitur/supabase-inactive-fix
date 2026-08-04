@@ -2,13 +2,13 @@
   {
     "name": "BAK&BRAAI",
     "supabase_url": "https://yfzldnckbgyuokinlvfk.supabase.co",
-    "supabase_key_env": "SUPABASE_KEY_1",
+    "supabase_key_env": "SUPABASE_BAKBRAAI_KEY",
     "table_name": "activity_log"
   },
   {
     "name": "Bellville AC Admin",
     "supabase_url": "https://ppyahmqfpistxhhldxmh.supabase.co",
-    "supabase_key_env": "SUPABASE_KEY_2",
+    "supabase_key_env": "SUPABASE_BELLVILLE_AC_KEY",
     "table_name": "activity_log"
   }
 ]
